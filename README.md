@@ -29,19 +29,19 @@ Dependencies:
 ## Wiring
 - 16x2 LCD:
   - RS: Pin 12
-  - Enable (E): Pin 11
+  - E: Pin 11
   - D4: Pin 5
   - D5: Pin 4
   - D6: Pin 8   
   - D7: Pin 9
-  - R/W, VSS, LED-: GND
-  - VDD, LED+: 5
+  - R/W, VSS, K: GND
+  - VDD, LED+: 5V
   - VO: 1k resistor to GND
 - Joystick:
   - VRx: Pin A1 (Cycles characters A–Z)
   - VRy: Pin A0 (Moves cursor)
-  - VRz: TO FIX (Erases character)
-  - GND / VCC: GND / 5V
+  - SW: Pin 7 (Erases character)
+  - GND / +5V: GND / 5V
 - Control Buttons:
   - Slot 0 Button: Pin 2 to GND
   - Slot 1 Button: Pin 3 to GND
