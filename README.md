@@ -36,6 +36,13 @@ Dependencies:
   - D7: Pin 9
   - R/W, VSS, LED-: GND
   - VDD, LED+: 5
-  - VO: 1k resistor
-  - 2-Axis Joystick:VRx (X-axis): Analog Pin A1 (Cycles characters A–Z and spaces)   VRy (Y-axis): Analog Pin A0 (Moves cursor across columns/rows)   GND / VCC: Connected to board GND and 5VControl Buttons (Internal Pull-Ups Enabled):Slot 0 Button: Pin 2 (INT0) to GND (Short press = Save, Long hold = Load)   Slot 1 Button: Pin 3 (INT1) to GND (Short press = Save, Long hold = Load)   Delete Button: Pin 7 to GND (Clears active character space)[cite: 1, 2, 3]
+  - VO: 1k resistor to GND
+- Joystick:
+  - VRx: Pin A1 (Cycles characters A–Z)
+  - VRy: Pin A0 (Moves cursor)
+  - VRz: TO FIX (Erases character)
+  - GND / VCC: GND / 5V
+- Control Buttons:
+  - Slot 0 Button: Pin 2 to GND
+  - Slot 1 Button: Pin 3 to GND
  
